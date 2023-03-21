@@ -1,0 +1,32 @@
+<script>
+
+    {
+        let x = 0
+        console.log(x)
+    }
+
+//--------------------------------------------
+    // var é global e, também local.
+    // global é tudo que estiver dentro do script e local é somente o que estiver dentro de {}
+    console.log('> existe x antes do bloco?', x)
+
+    //a leitura é feita de cima para baixo, mas quando a constante é "var" seria como se o javascript mandasse ele para cima, antes da função. Este conceito se chama hoisting
+{
+    var x = 0
+}
+
+console.log('> existe x depois do bloco?', x)
+
+//-----------------------------------------------
+
+// console.log('> existe y antes do bloco? ', y)
+
+{
+    // console.log('> existe y antes? ', y)
+    let y = 0
+    console.log('> existe y antes ', y)
+}
+
+// não funcionara por não estar no escopo -> {}
+console.log('> existe y depois do bloco? ', y)
+</script>

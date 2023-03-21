@@ -1,0 +1,31 @@
+# Tipos de dados
+
+Conforme o ECMAScript (orgão que padroniza) standard (padrão) temos 9 tipos de dados:
+
+* Data types
+    * Primitive / Primitive value
+    * Scructural
+    * Scructural Primitive
+
+## Primitivos -> não é objeto i o valor é imutavel
+
+* String 
+* Number
+* Boolean -> dados verdadeiros ou falsos
+* undefined -> termos de erros
+* Symbol
+* BigInt
+
+## Estruturais
+
+* Object -> tipo de dado estrutural, objeto recebe propriedades que são atributos e recebe funcionalidades que são os metodos.
+    * Array
+    * Map
+    * Set
+    * Date
+    * ...
+* Function
+
+## Primitivo Estrutural / Structural Root Primitive
+
+* null -> no mesmo tempo é primitivo e estrutural
